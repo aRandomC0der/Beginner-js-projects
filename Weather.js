@@ -22,10 +22,10 @@ window.addEventListener('load', ()=> {
         const {temp} = data.main; 
         const {description} = data.weather[0];
         let iconCode = ` http://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
-        console.log(iconCode)
+        
         // SET DOM ELEMENTS FROM API
         temperatureDegree.textContent = temp;
-        temperatureDescription.textContent = description;
+        temperatureDescription.textContent = description.toUpperCase();
         locationTimezone.textContent = Intl.DateTimeFormat().resolvedOptions().timeZone;
         icon.src=`${iconCode}`
       })
