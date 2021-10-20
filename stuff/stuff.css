@@ -28,10 +28,11 @@ body {
 #current-time {
   text-align: center;
   position: relative;
-  bottom: 120px;
-  font-size: 220px;
+  bottom: 150px;
+  font-size: 250px;
+  font-weight: lighter;
   font-family: 'digital-7'; 
-  src: url('digital-7.ttf');
+  src: url('digital-7Norm.ttf');
   color: #FFFFFF;
   animation-name: blink;
   animation-duration: 1s;
