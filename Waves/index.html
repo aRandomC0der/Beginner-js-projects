@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="red">
+    <h1>Nice Curves</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laborum libero sequi atque hic beatae temporibus
+      soluta est incidunt? Facere excepturi hic, consequuntur voluptatum nam culpa quisquam illum asperiores pariatur!
+    </p>
+    <div class="curve"></div>
+  </section>
+  <section class="blue">
+    <h1>Nice Curves</h1>
+    <p>Provident unde recusandae, ipsam omnis cumque harum aliquam accusantium, voluptates quisquam cum nemo delectus
+      sint quos maiores facere dicta corrupti nulla exercitationem dolor, molestias dolorum ex repellendus. A, similique
+      tenetur!</p>
+  </section>
+  <section class="black">
+    <h1>Nice Curves</h1>
+    <p>Dolore maxime inventore quidem? Cum sint cupiditate dolorem corrupti quam quae deserunt, iusto ipsa
+      necessitatibus dolor saepe rerum aut. Saepe laboriosam alias necessitatibus dolore adipisci ipsa repudiandae
+      libero quas unde?</p>
+  </section>
+  <section class="gray">
+    <h1>Nice Curves</h1>
+    <p>Non velit et iusto accusamus libero dolor inventore maiores aspernatur sapiente harum nisi possimus, porro sequi
+      molestiae! Laboriosam nam inventore distinctio nobis. Eius rem facere nostrum perspiciatis deleniti sint vitae.
+    </p>
+    <div class="wavey">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+  <div class="spacer layer1"></div>
+  <section class="green">
+    <h1>Nice Curves</h1>
+    <p>Magni neque nisi nam ipsam illum, nostrum numquam fuga doloribus blanditiis consectetur dolores veniam
+      voluptatum, aut iure necessitatibus cum quo sit! At optio magnam eius ratione aperiam consequuntur dolor
+      voluptatibus!</p>
+  </section>
+  <section class="pink">
+    <h1>Nice Curves</h1>
+    <p>Accusantium consectetur ut perspiciatis maxime magnam odit reprehenderit, cupiditate nobis nisi et aut rem
+      sapiente? Dolor dolore sit eveniet tempora officia! Delectus ipsum alias temporibus tempore, placeat facere
+      perspiciatis incidunt.</p>
+  </section>
+
+  <div class="spacer layer2 flip"></div>
+
+  <section class="yellow">
+    <h1>Nice Curves</h1>
+    <p>Eos quis eum placeat et, sint recusandae in id adipisci earum, ipsa hic laboriosam velit, autem illo maiores
+      culpa? Perspiciatis nostrum tenetur dolores et sed facilis quibusdam eius ducimus a?</p>
+      <svg id="visual" viewBox="0 0 960 300" width="960" height="300" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+      <g transform="translate(458.03996959004644 141.62630720085326)" >
+        <path id="blob1"
+          d="M93.4 -86.7C116 -70.7 126 -35.4 122.5 -3.5C119 28.3 101.9 56.6 79.2 78.7C56.6 100.9 28.3 117 1.4 115.5C-25.5 114.1 -50.9 95.2 -63.4 73.1C-75.9 50.9 -75.5 25.5 -77.2 -1.8C-79 -29 -83 -58 -70.5 -74C-58 -90 -29 -93 3.2 -96.2C35.4 -99.4 70.7 -102.7 93.4 -86.7"
+          fill="#d2d231"></path>
+      </g>
+      <g transform="translate(484.4581305657051 148.99042630205514)">
+        <path id="blob2"
+          d="M70.7 -71.9C89.5 -51.9 101.3 -25.9 106 4.7C110.7 35.4 108.4 70.7 89.5 89.9C70.7 109 35.4 112 8.8 103.2C-17.7 94.3 -35.4 73.7 -59 54.5C-82.7 35.4 -112.3 17.7 -116.5 -4.1C-120.6 -25.9 -99.2 -51.9 -75.5 -71.9C-51.9 -91.9 -25.9 -105.9 0 -105.9C25.9 -105.9 51.9 -91.9 70.7 -71.9"
+          fill="#d2d231"></path>
+      </g>
+    </svg>
+
+    <script>
+      const tween = KUTE.fromTo(
+        '#blob1',
+        { path: '#blob1'},
+        { path: '#blob2'},
+        { repeat: 999, duration: 3000, yoyo: true }
+      )
+
+      tween.start();
+    </script>
+  </section>
+
+  <div class="spacer layer2"></div>
+
+  <section class="pink">
+    <h1>Nice Curves</h1>
+    <p>Sequi eum dignissimos reprehenderit veniam exercitationem cum ipsam, temporibus maiores illum modi nostrum nobis
+      quasi deserunt ipsum minus illo repudiandae quod. Quia consectetur id excepturi. Molestiae quam facilis soluta
+      inventore!</p>
+  </section>
+</body>
+
+</html>
